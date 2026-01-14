@@ -1,4 +1,5 @@
 baseurl = "https://joshdean814.github.io"
+baseURL = "https://joshdean814.github.io"
 title = "Josh Dean's Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
