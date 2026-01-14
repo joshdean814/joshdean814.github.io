@@ -1,5 +1,4 @@
 baseurl = "https://joshdean814.github.io"
-baseURL = "https://joshdean814.github.io"
 title = "Josh Dean's Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
@@ -126,9 +125,6 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.additional_menus]]
   title =  "ARCHIVE"
   href =  "/archive/"
-  [[params.additional_menus]]
-  title =  "NOTES"
-  href =  "/notes/"
   [[params.additional_menus]]
   title =  "ABOUT"
   href =  "/about/"
