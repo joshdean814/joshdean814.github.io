@@ -1,16 +1,9 @@
 baseurl = "https://joshdean814.github.io"
-title = "Josh Dean's Blog"
+title = "Josh Dean"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
-
-[services]
-  # Enable comments by entering your Disqus shortname
-  [services.disqus]
-    shortname = ""
-  [services.googleAnalytics]
-    id = ""
 
 [pagination]
   pagerSize = 5 # frontpage pagination
@@ -43,8 +36,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   # Sidebar settings
   sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
-  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
-  sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/joshdean.jpg"
 
   featured_tags = true 
   featured_condition_size = 1 
@@ -67,10 +59,6 @@ home = ["HTML", "RSS", "Algolia"]
   artalk_server = "https://xxx.xxx.com"
   artalk_site = "xxx blog"
 
-  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
-  reward = true 
-  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
-
   friends = true
   bookmarks = false
   about_me = true
@@ -80,30 +68,11 @@ home = ["HTML", "RSS", "Algolia"]
   #last_posts_title = "LAST POSTS"
   #last_posts_count = 5
 
-  # Include any custom CSS and/or JS files, url or relative to /static folder
-  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
-  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
-
   [params.social]
   rss            = true 
-  email          = "youremail@gmail.com"
-  #facebook      = "full profile url in facebook"
-  #googleplus    = "full profile url in googleplus"
-  #twitter       = "full profile url in twitter"
+  email          = "josh.dean31@yahoo.com"
   linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
-  stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
-  #instagram     = "full profile url in instagram"
-  github         = "https://github.com/yourgithub"
-  wechat         = "your wechat qr code image"
-  #medium        = "full profile url in medium"
-  #slack         = "full workspace url in slack"
-  #pinterest     = "full profile url in pinterest"
-  #reddit        = "full profile url in reddit"
-  #gitlab        = "full profile url in gitlab"
-  #mastodon      = "full profile url in mastodon"
-  #keybase       = "full profile url in keybase"
-  #xing          = "https://www.xing.com/profile/yourxingid"
-  #git           = "full profile url for git user"
+  github         = "https://github.com/joshdean814"
   
   [[params.friend_link]]
   title = "Linda的博客"
