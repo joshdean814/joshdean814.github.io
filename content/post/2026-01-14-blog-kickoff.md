@@ -20,7 +20,7 @@ The primary goal of this blog is to improve my technical writing ability. The de
 
 I am also using it as an incentive to explore random projects in and around embedded software. I have always found it difficult to pick up a software project just for the act of doing it, but being able to report about the learnings of something and evolve it into new ideas sounds much more inspirational (even if it is just blasted into the vacuums of a dead internet).
 
-A forewarning now: I come from a very heavily software-based background, and I am no expert in hardware. Most of the projects I try to do will have minimal hardware, but I will try my best to explain my own understanding of the components involved.
+I come from a primarily software-focused background, and these projects are part of my effort to strengthen my firmware skills and build a deeper understanding of the underlying hardware I am working with. 
 
 Aside from technical writing, I am also planning on writing some entries for a "Life in Sweden" series, documenting the interests and oddities of living abroad, and possibly a cooking channel as well if time (and interest) permit. I am hoping to setup a comments section soon, since that is my personal favorite part of odd forms of social media like this, but hang tight for now.
 

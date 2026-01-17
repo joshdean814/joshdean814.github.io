@@ -26,7 +26,7 @@ PWM, or pulse-width modulation, waves are rectangular waves constantly flipping 
 
 ![Duty Cycle Examples](/img/servo-driver/Duty_Cycle_Examples.png)
 
-There are many ways to generate a PWM, but most the most common way is with a timer and a counter. First you fix the timer's frequency, then at the start of each period, turn the signal on and count clock ticks until you have reached the desired on-duration. Finally, turn the signal off for the remainder of the period and repeat.
+There are many ways to generate a PWM, but the most common way is with a timer and a counter. First you fix the timer's frequency, then at the start of each period, turn the signal on and count clock ticks until you have reached the desired on-duration. Finally, turn the signal off for the remainder of the period and repeat.
 
 ### - Servomotors
 Motors found in a multitude of different applications, these versatile components use a PWM signal within a certain operating frequency range to guide their output angle.
