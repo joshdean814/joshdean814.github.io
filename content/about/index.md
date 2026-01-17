@@ -11,6 +11,6 @@ He is currently pursuing an MSc in Embedded Systems at Uppsala University and pr
 
 Outside of school and work, he enjoys cooking, golfing, and trying to convincing the locals to speak Swedish with him.
 
-For employment opportunities, please see his [resume](/resume.pdf).
+For employment opportunities, please see his [resume](/img/josh_dean_resume.pdf).
 
 Feel free to connect Josh on [GitHub](https://github.com/joshdean814) and [LinkedIn](https://www.linkedin.com/in/josh-dean-05090b243), or share your ideas by writing him an [email](mailto:josh.dean31@yahoo.com). 

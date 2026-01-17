@@ -63,7 +63,7 @@ home = ["HTML", "RSS", "Algolia"]
   href =  "/about/"
   [[params.additional_menus]]
   title =  "RESUME"
-  href =  "/resume.pdf"
+  href =  "/img/josh_dean_resume.pdf"
 
 [outputFormats.Algolia]
 baseName = "algolia"
