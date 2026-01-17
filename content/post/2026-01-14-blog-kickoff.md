@@ -6,6 +6,7 @@ date:       2026-01-14
 author:     "Josh Dean"
 url:        "/2026/01/14/blog-kickoff/"
 image:      "/img/joshdean.jpg"
+tags:       ["welcome", "motivation", "technical-writing"]
 description: Tjena! Here is a brief insight into the motivation behind the blog.
 ---
 

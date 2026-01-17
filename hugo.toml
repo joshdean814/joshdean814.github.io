@@ -15,7 +15,7 @@ home = ["HTML", "RSS", "Algolia"]
   header_image = "img/mt_cook_nz.jpeg"
   description = "Josh Dean's Blog"
   SEOTitle = "Blog"
-  slogan = "Exposing Bare-Metal"
+  slogan = "Discovery loading..."
   upstreamAttribution = true
 
   image_404 = "img/404-bg.jpg"
@@ -30,7 +30,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   # Sidebar settings
   sidebar_about_description = "Embedded Systems Developer, Tinkering Enthusiast and Aspiring Swede"
-  sidebar_avatar = "img/joshdean.jpg"
+  sidebar_avatar = "img/josh_profile_pic.jpeg"
 
   featured_tags = true 
   featured_condition_size = 1 

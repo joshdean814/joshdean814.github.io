@@ -8,7 +8,7 @@ url:        "/2026/01/16/servo-driver-part-1/"
 categories: ["projects"]
 tags:       ["raspberry-pi", "linux", "i2c", "gpio", "pwm", "adc"]
 description: Walkthrough for setting up a basic multi-threaded program on a RaspberryPi to control a servomotor via a potentiometer.
-image:      "/img/rpi-servo-controller.png"
+image:      "/img/servo-driver/rpi-servo-controller.png"
 ---
 
 > "Tony Stark was able to build this in a cave! With a box of scraps!" - Obadiah Stane
@@ -24,14 +24,14 @@ I'll just give a brief intro into each of these components, or at least what is 
 ### - PWMs
 PWM, or pulse-width modulation, waves are rectangular waves constantly flipping on/off. As a result, their average "on-time", or duty cycle, results in a percentage which is used to control light intensity, power consumption, etc.
 
-![Duty Cycle Examples](/img/Duty_Cycle_Examples.png)
+![Duty Cycle Examples](/img/servo-driver/Duty_Cycle_Examples.png)
 
 There are many ways to generate a PWM, but most the most common way is with a timer and a counter. First you fix the timer's frequency, then at the start of each period, turn the signal on and count clock ticks until you have reached the desired on-duration. Finally, turn the signal off for the remainder of the period and repeat.
 
 ### - Servomotors
 Motors found in a multitude of different applications, these versatile components use a PWM signal within a certain operating frequency range to guide their output angle.
 
-![Servo Timing Diagram](/img/servo-timing-diagram.png)
+![Servo Timing Diagram](/img/servo-driver/servo-timing-diagram.png)
 
 I used the very common TowerPro SG90 model, which uses a 50 Hz operating range to contol its angle.
 
@@ -62,7 +62,7 @@ Lastly, just plug in the extension board ribbon and we are ready to roll.
 ### - Making a Basic PWM
 To get a feel for the environment, I wanted to start by using the built-in PWM pin generation in the RasPi to see if if I could get it operational. In the GPIO pinout [^2], we can see the various PWM sites; I chose to use GPIO Pin #18 (PWM0).
 
-![Basic LED Setup](/img/LED_setup.png)
+![Basic LED Setup](/img/servo-driver/LED_setup.png)
 
 To activate the wave, we must write to the sysfs (userspace interface) for the Linux PWM controller drivers. This can be done in 5 easy steps:
 
@@ -85,7 +85,7 @@ Within these settings, the speeds are specified in nanoseconds [^3]. So with set
 
 If we disconnect the LED and instead connect the servomotor to GPIO 18 and 5V:
 
-![Servo Connection](/img/servo_connected.png)
+![Servo Connection](/img/servo-driver/servo_connected.png)
 
 Then we can change the period to 50 Hz:
 ```bash
@@ -103,7 +103,7 @@ echo 2000000 | sudo tee /sys/class/pwm/pwmchip0/pwm0/duty_cycle
 ## - Adding the Potentiometer/ADC
 The wiring here gets a bit messy, but plug the ADC in and connect the `3.3V` (Pin 1) to its `VCC`, `GND` to `GND`, the `SDA` (Pin 3) to the ADC's `SDA`, and the `SCL` (Pin 5) to the ADC's `SCL` pin. Then add the potentiometer with the `3.3V` also in its top pin, and `GND` in its bottom pin. Insert a wire in the middle pin and run it back to the ADC's `A0` pin. Here is a visual:
 
-![ADC/Potent](/img/potent_adc.png)
+![ADC/Potent](/img/servo-driver/potent_adc.png)
 
 With this setup, the current voltage reading from the potentiometer gets passed to the ADC's `A0` sample channel. Using I2C serial protocol, we will request the ADC to make readings at certain intervals and report back to us an 8-bit integer [0 - 255].
 
