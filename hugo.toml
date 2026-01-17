@@ -12,7 +12,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/home-bg-jeep.jpg"
+  header_image = "img/mt_cook_nz.png"
   description = "Josh Dean's Blog"
   SEOTitle = "Blog"
   slogan = "Exposing Bare-Metal"
