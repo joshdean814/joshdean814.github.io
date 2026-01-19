@@ -14,9 +14,9 @@ description: Tjena! Here is a brief insight into the motivation behind the blog.
 
 Tjena & welcome to the blog!
 
-If you have landed here, you are either a relative, a friend of my mom on LinkedIn, or my grandmother was correct in calling me a prodigal writer (fingers crossed...)
+If you have landed here, you are either a relative, a friend of my mom on LinkedIn, or my grandmother was correct in calling me a prodigious writer (fingers crossed...)
 
-The primary goal of this blog is to improve my technical writing ability. The deeper I have made it within technology, the more difficult I have found it to explain my work and ideas to others, so I know this will be a perfect exercise in making the technical details sound a little more human. And to, as the Swedish quote above translates to: "kill two flys in one smack". It is no secret the CS industry has expectations about developer portfolios, and this blog will help me to build up that body of work.
+The primary goal of this blog is to improve my technical writing ability. The deeper I have made it within technology, the more difficult I have found it to explain my work and ideas to others, so I know this will be a perfect exercise in making the technical details sound a little more human. And to, as the Swedish quote above translates to: "kill two flys in one smack". It is no secret the CS industry has expectations about developer portfolios, and this blog will help me to build up that body of work. 
 
 I am also using it as an incentive to explore random projects in and around embedded software. I have always found it difficult to pick up a software project just for the act of doing it, but being able to report about the learnings of something and evolve it into new ideas sounds much more inspirational (even if it is just blasted into the vacuums of a dead internet).
 
