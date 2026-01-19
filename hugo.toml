@@ -57,10 +57,10 @@ home = ["HTML", "RSS", "Algolia"]
 
   [[params.additional_menus]]
   title =  "ARCHIVE"
-  href =  "/archive/"
+  href =  "/archive"
   [[params.additional_menus]]
   title =  "ABOUT"
-  href =  "/about/"
+  href =  "/about"
   [[params.additional_menus]]
   title =  "RESUME"
   href =  "/img/josh_dean_resume.pdf"
