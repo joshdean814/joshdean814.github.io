@@ -9,7 +9,7 @@ url:        "/2026/01/17/servo-driver-part-2/"
 categories: ["projects"]
 tags:       ["raspberry-pi", "linux", "i2c", "gpio", "pwm", "adc"]
 description: Walkthrough for setting up a basic multi-threaded program on a RaspberryPi to control a servomotor via a potentiometer.
-image:      "/img/rpi-servo-controller.png"
+image:      "/img/servo-driver/kernel_module_ai.png"
 ---
 
 
