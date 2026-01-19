@@ -11,25 +11,20 @@
             {{ . }}
         </h3>
 	{{ end }}
+    
+    <div class="post-content-preview">
+        {{ with .Description }}
+                {{ . }}
+            {{ else }}
+                {{ .Summary}}
+        {{ end }}
+    </div>
     {{ with .Params.image }}
         <a href="{{ $.RelPermalink }}">
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="max-width:100%;height:auto;margin:12px 0;">
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="max-width: 320px;max-height:240;margin:12px 0;">
         </a>
     {{ end }}
-        <div class="post-content-preview">
-	{{ with .Description }}
-            {{ . }}
-        {{ else }}
-            {{ .Summary}}
-       {{ end }}
-        </div>
 
-        {{ with .Params.image }}
-        <a href="{{ $.RelPermalink }}">
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}" style="max-width:40%;height:auto;margin:12px 0;">
-        </a>
-        {{ end }}
-    </a>
     <p class="post-meta">
     {{ if .Params.metadata }}
         {{ range $index, $element := .Params.metadata }}
