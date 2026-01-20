@@ -4,7 +4,7 @@ title:      "Servo Driver on RasPi [Part 1 of 2]"
 subtitle:   "Generating a PWM in User Space"
 date:       2026-01-16
 author:     "Josh Dean"
-url:        "/2026/01/16/servo-driver-part-1/"
+url:        "/categories/projects/servo-driver-part-1/"
 categories: ["projects"]
 tags:       ["raspberry-pi", "linux", "i2c", "gpio", "pwm", "adc"]
 description: Walkthrough for setting up a basic multi-threaded program on a RaspberryPi to control a servomotor via a potentiometer.
