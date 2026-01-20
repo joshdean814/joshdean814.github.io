@@ -1,11 +1,49 @@
 {{ define "header" }}
 <!-- Post Header -->
-<style type="text/css">
+<!-- <style type="text/css">
     header.intro-header {
-        /* background-image: url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL}}{{ end }}') */
-        background-image: url('{{ .Site.Params.header_image | relURL}}');
+        background-image: url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL}}{{ end }}')
+        /* background-image: url('{{ .Site.Params.header_image | relURL}}'); */
     }
+</style> -->
+
+<style type="text/css">
+  header.intro-header{
+    background-image:url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL }}{{ end }}');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* blurred background layer */
+  header.intro-header::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background: inherit;
+    filter: blur(3px);
+    transform: scale(1.05); /* avoid blur edge artifacts */
+    z-index: 0;
+  }
+
+  /* keep existing header content above blur */
+  header.intro-header .container,
+  header.intro-header .site-heading,
+  header.intro-header .post-heading{
+    position: relative;
+    z-index: 1;
+  }
+
+  /* blurred bounding box behind text */
+  header.intro-header .site-heading,
+  header.intro-header .post-heading{
+    display: inline-block;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+  }
 </style>
+
 {{ if eq .Params.headerstyle "text" }}
 <header class="intro-header style-text" >
 {{ else }}
@@ -78,10 +116,10 @@
                 {{.TableOfContents}}
                 {{ end }}
                 -->
-                {{ with .Params.image }}
+                <!-- {{ with .Params.image }}
                 <img class="post-top-img" src="{{ . | relURL }}" alt="{{ $.Title }}" 
                 style="max-width:900px; max-height:420px; width: auto; height:auto; margin:12px 0;">
-                {{ end }}
+                {{ end }} -->
 
                 {{ .Content }}
 
