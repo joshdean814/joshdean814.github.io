@@ -2,7 +2,7 @@
 layout:     post
 title:      "Nordic Fish One Pot with Tomato-Olive Risoni (3.75 ⭐️)"
 subtitle:   "30-Minute Dinner Series"
-date:       2026-01-19
+date:       2026-01-20
 author:     "Josh Dean"
 url:        "/cooking/nordic-fish-one-pot/"
 categories: ["cooking"]
