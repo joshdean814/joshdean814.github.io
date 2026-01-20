@@ -7,7 +7,7 @@ author:     "Josh Dean"
 url:        "/cooking/nordic-fish-one-pot/"
 categories: ["cooking"]
 tags:       ["weeknight-dinner", "recipe", "one-pot", "fish", "risoni"]
-description: "Join me in cooking a budget weeknight dinner in under 30 mins."
+description: "Join me cooking a budget weeknight dinner in under 30 mins."
 image:      "/img/cooking/fish-one-pot/final_plate.jpeg"
 ---
 
