@@ -65,9 +65,7 @@ home = ["HTML", "RSS", "Algolia"]
   title =  "RESUME"
   href =  "/img/josh_dean_resume.pdf"
 
-[services]
-  [services.disqus]
-    shortname = "joshdean814-github-io"
+disqus_site = "joshdean814-github-io"
 
 [outputFormats.Algolia]
 baseName = "algolia"
