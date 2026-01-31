@@ -1,0 +1,76 @@
+/* Buttondown subscribe form */
+
+.buttondown-subscribe {
+  margin: 3rem 0;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  background: #fafafa;
+}
+
+.buttondown-subscribe label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.buttondown-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.buttondown-row input[type="email"] {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.buttondown-row input[type="email"]:focus {
+  outline: none;
+  border-color: #0085a1; /* Clean White accent */
+}
+
+.buttondown-row button {
+  padding: 1.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  background: #0085a1;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.buttondown-row button:hover {
+  background: #006d85;
+}
+
+/* Page break + spacing above subscribe form */
+
+.subscribe-separator {
+  margin-top: 4rem;   /* space above */
+  padding-top: 3rem;  /* space after divider */
+  border-top: 1px solid #eee;
+}
+
+@media (max-width: 600px) {
+  .subscribe-separator {
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+}
+
+.buttondown-row button {
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.buttondown-row button:hover {
+  background: #0085a1;   /* Clean White theme blue */
+  color: #fff;
+  border-color: #0085a1;
+}

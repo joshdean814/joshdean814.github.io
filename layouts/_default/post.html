@@ -145,8 +145,8 @@
                 </ul>
                 {{ end }}
 
-                <!-- {{ partial "comments.html" . }} -->
                 {{ template "_internal/disqus.html" . }}
+                <br>
             </div>
 
             <!-- Side Catalog Container -->
@@ -189,6 +189,10 @@
                     </div>
                 </section>
                 {{ end }}
+
+                <section>
+                    {{ partial "subscribe.html" . }}
+                </section>
 
                 <!-- Friends Blog -->
                 {{ if .Site.Params.friends }}
