@@ -145,7 +145,8 @@
                 </ul>
                 {{ end }}
 
-                {{ partial "comments.html" . }}
+                <!-- {{ partial "comments.html" . }} -->
+                {{ template "_internal/disqus.html" . }}
             </div>
 
             <!-- Side Catalog Container -->
