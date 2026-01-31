@@ -67,9 +67,9 @@ home = ["HTML", "RSS", "Algolia"]
 
 [services]
   [services.disqus]
-    shortname = "https://https-joshdean814-github-io.disqus.com/"
+    shortname = "joshdean814-github-io"
 
-disqus_site = "https://https-joshdean814-github-io.disqus.com/"
+disqus_site = "joshdean814-github-io"
 
 [outputFormats.Algolia]
 baseName = "algolia"
