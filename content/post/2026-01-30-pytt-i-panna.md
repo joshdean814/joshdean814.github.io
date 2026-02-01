@@ -112,3 +112,5 @@ When the egg is done, plate the pytt i panna with some fresh parsley, fried egg,
 I am positive that any native Swede would laugh if I told them it took me 2 hours to cook pytt i panna. It was *excruciating* to stand and dice ingredients for 1.5 hours, for a fairly trivial dish. I was pleased enough with how it turned out, as it was quite tasty, but the trade-off for the effort was not even remotely close. For Ida, it "did not beat the frozen one" and "lacked some color". The pork was probably not the best visual choice for the dish, as it looked a little bit ghoulish once the pink drained out of it. To give a rough taste comparison, it was a cross of camp-fire dinner and a Denny's breakfast skillet.
 
 Husmanskost nearly broke me this time, but I will be back with more traditional flavors from the heart of Scandinavia.
+
+<font color="green">***Update:***</font> The leftovers were much more satisfactory and closer matched my expectations of the recipe. Frying again helped to draw some of the moisture out of the mixture which gave it a nice crisp. I would say the next day dish is improved to around the 3.5 ⭐️ mark.
