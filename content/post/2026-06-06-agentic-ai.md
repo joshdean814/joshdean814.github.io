@@ -5,7 +5,7 @@ subtitle:   "Reflections From My First Week Building With Agentic AI"
 date:       2026-06-06
 author:     "Josh Dean"
 url:        "/categories/technology/agentic-ai"
-categories: ["technology", "projects"]
+categories: ["projects"]
 tags:       ["ai", "agentic-ai", "llm", "software-development", "kiro"]
 description: "How my perspective on the future of software development has changed."
 image:      "/img/agentic-ai/agentic-ai.png"
