@@ -58,7 +58,7 @@ One unanswered question is whether or not the cost of running an agent for every
 as you can see the trend of token cost is reducing by 10x annually, which will continue as GPUs get more efficient and omnipresent, and AI providers fine-tune their processes. Alternatively, the AI providers pull the 'ole bait and switch and hike their prices once enough people are hooked. Already the top model available today, Anthropic's Claude Opus 4.8, costs 
 $5 per million input tokens and $25 per million output tokens [^3]. You can imagine this goes quickly when iterating over a 20 page, 50K character document explaining a project. Optimizing token usage through AI native workflows will also be a growing area in the near future.
 
-## Interesting Notes About Agentic Guardrails.
+## Interesting Notes About Agentic Guardrails
 One misunderstanding I had about agentic development was that the LLM would be trusted to do everything by itself between prompting. Something that immediately became clear is that agents perform much, much better if they have well defined pathways to prebuilt deterministic tools (lookup MCPs if you are curious, this will be another massive area in software over the next 3 years). LLMs are wild, non-deterministic, probability-driven beasts, and the more grounded they are to something that can produce known results, the better off we will all be. Interestingly, to get them to use the tools, you sometimes have to really must make it explicit, i.e. `> you MUST use the ... provided in ... after you ...`, and sometimes you have to repeat the instruction a few times.
 
 ## Future Thoughts; My Predictions
