@@ -4,7 +4,7 @@ title:      "My Public Surrender to AI"
 subtitle:   "Reflections From My First Week Building With Agentic AI"
 date:       2026-06-06
 author:     "Josh Dean"
-url:        "/categories/technology/agentic-ai/"
+url:        "/categories/technology/agentic-ai"
 categories: ["technology", "projects"]
 tags:       ["ai", "agentic-ai", "llm", "software-development", "kiro"]
 description: "Reflections on my first week building software with agentic AI, and why it changed my perspective on the future of development."
