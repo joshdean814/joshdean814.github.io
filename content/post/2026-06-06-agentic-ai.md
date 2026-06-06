@@ -7,7 +7,7 @@ author:     "Josh Dean"
 url:        "/categories/technology/agentic-ai"
 categories: ["technology", "projects"]
 tags:       ["ai", "agentic-ai", "llm", "software-development", "kiro"]
-description: "Reflections on my first week building software with agentic AI, and why it changed my perspective on the future of development."
+description: "How my perspective on the future of software development has changed."
 image:      "/img/agentic-ai/agentic-ai.png"
 ---
 > "I am offering you a choice. Bend the knee, and join me. Or refuse, and die." - Daenerys Targaryen
